@@ -1,4 +1,4 @@
-number_1 = int(input("Введите число 1: "))
-number_2 = int(input("Введите число 2: "))
+num_1 = float(input("Введите число 1: "))
+num_2 = float(input("Введите число 2: "))
 
-print(f"Сумма двух чисел: ", number_1 + number_2, "\n" "Произведение двух чисел: ", number_1 * number_2)
+print(f"Сумма двух чисел: ", num_1 + num_2, "\n" "Произведение двух чисел: ", num_1 * num_2)
