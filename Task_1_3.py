@@ -20,4 +20,4 @@ elif res_div >= res_add and res_div >= res_substr and res_div >= res_mult and re
 else:
     print(5, res_div_nr)
 
-#задание не решено
+#задание не решено 
