@@ -1,3 +1,5 @@
+#задание не решено
+
 num_1 = float(input("Введите число X: "))
 num_2 = float(input("Введите число Y: "))
 
@@ -17,3 +19,5 @@ elif res_div >= res_add and res_div >= res_substr and res_div >= res_mult and re
     print(4, res_div)
 else:
     print(5, res_div_nr)
+
+#задание не решено
