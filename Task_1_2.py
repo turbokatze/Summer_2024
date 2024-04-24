@@ -5,12 +5,15 @@ res_add = num_1 + num_2
 res_substr = num_1 - num_2
 res_mult = num_1 * num_2
 res_div = num_1 / num_2
+res_div_nr = num_1 // num_2
 
-if res_add > res_substr > res_mult > res_div:
+if res_add >= res_substr and res_add >= res_mult and res_add >= res_div and res_add >= res_div_nr:
     print(res_add)
-elif res_substr > res_add > res_mult > res_div:
+elif res_substr >= res_add and res_substr >= res_mult and res_substr >= res_div and res_substr >= res_div_nr:
     print(res_substr)
-elif res_mult > res_add > res_substr > res_div:
+elif res_mult >= res_add and res_mult >= res_substr and res_mult >= res_div and res_mult >= res_div_nr:
+    print(res_mult)
+elif res_div >= res_add and res_div >= res_substr and res_div >= res_mult and res_div >= res_div_nr:
     print(res_mult)
 else:
-    print(res_div)
+    print(res_div_nr)
