@@ -4,4 +4,3 @@ for x in lst_1:
     if x < minvalue:
         minvalue = x
 print(minvalue)
-
