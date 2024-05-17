@@ -1,0 +1,18 @@
+user_input = input()
+num1, operator, num2 = user_input.split(" ")
+if operator == '+':
+    print(int(num1) + int(num2))
+elif operator == '-':
+    print(int(num1) - int(num2))
+elif operator == '*':
+    print(int(num1) * int(num2))
+elif operator == '/':
+    print(int(num1) / int(num2))
+elif operator == '**':
+    print(int(num1) ** int(num2))
+elif operator == '//':
+    print(int(num1) // int(num2))
+elif operator == '%':
+    print(int(num1) % int(num2))
+else:
+    print('error')
