@@ -1,0 +1,2 @@
+student_lst1, student_lst2 = set(input("Enter first student's books: ").split(', ')), set(input("Enter second student's books: ").split(', '))
+print('Number of both students identical books: ', len(student_lst1.intersection(student_lst2)))
