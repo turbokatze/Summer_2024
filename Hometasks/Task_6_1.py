@@ -1,4 +1,4 @@
-rom_nums={'I':1, 'V':5, 'X':10, 'L': 50, 'C':100, 'D':500, 'M':1000,}
+rom_nums = {'I': 1, 'V': 5, 'X': 10, 'L': 50, 'C': 100, 'D': 500, 'M': 1000, }
 int_val = 0
 user_input = input('Enter Roman numeral: ').upper()
 for i in range(len(user_input)):
