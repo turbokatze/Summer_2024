@@ -5,7 +5,5 @@
 with open('test1.txt', 'r') as sourcetxt, open('test2.txt', 'w') as reversetxt:
     for line in reversed(sourcetxt.readlines()):
         for word in reversed(line.split()):
-            word = word.rstrip()
-            reversetxt.writelines(word)
-            reversetxt.write(' ')
+            reversetxt.write(word); reversetxt.write(' ')
         reversetxt.write('\n')
