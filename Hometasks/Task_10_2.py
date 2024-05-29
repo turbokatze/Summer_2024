@@ -1,10 +1,27 @@
 import openpyexcel
+#
+from openpyexcel import Workbook, load_workbook, utils
+from openpyexcel.worksheet.filters import (Filters, FilterColumn, AutoFilter, CustomFilter, CustomFilters, MinMax)
+# wb = Workbook()
+# wb.create_sheet("Salary")
+# wb.save('salary1.xlsx')
 
+# wb = openpyexcel.load_workbook('salary1.xlsx')
+# ws = wb['Salary']
+# ws['A1'],ws['A2'], ws['A3']= 'Сидоров','Петров','Иванов'
+# ws['B1'],ws['B2'], ws['B3']= '100','200','300'
+# print(ws["B1"].value, ws['b2'].value, ws['B3'].value)
 
-from openpyexcel import Workbook
-wb = Workbook()
-wb.save('task102.xls')
-f_in = open('task102.xls', 'w', encoding='utf-8')
-lst = ['\n', '02\n', '03\n']
-f_in.writelines(lst)
-f_in.close()
+wb = openpyexcel.load_workbook('salary1.xlsx')
+# wb.create_sheet("Salary_sorted")
+# wb.remove_sheet('Sheet') не удалось удалить дефолтный лист®
+# ws = wb['Salary']
+# wb.active = wb['Salary_sorted']
+# ws = wb.active
+#filters = ws.auto_filter
+# filters.ref = "A1:B3"
+# col.filters = Filters(filter=[])
+# filters.filterColumn.append(col)
+
+# ws.auto_filter.add_sort_condition(" : ")
+wb.save('salary1.xlsx')
