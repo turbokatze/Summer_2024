@@ -22,6 +22,6 @@ def conv_nums(number):
 if user_input > 0:
     print(conv_nums(user_input))
 elif user_input == 0:
-    print('no zeros in Roman numerals')
+    print('error: no zeros in Roman numerals')
 else:
-    print('error input')
+    print('error: wrong input')
