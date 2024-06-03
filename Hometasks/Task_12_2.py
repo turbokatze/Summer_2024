@@ -1,5 +1,4 @@
-from itertools import groupby
-
+import itertools
 
 def apd1(k):
     res = []
@@ -8,6 +7,13 @@ def apd1(k):
     return res
 
 
-a=input()
-print(apd1(a))
+# a=input()
+# print(apd1(a))
 
+def apd2(number):
+    return number+number, number if number !=0 else number, number
+
+
+
+for i in range(10):
+    print(apd2(i), end=' ')
