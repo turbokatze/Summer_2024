@@ -11,7 +11,7 @@ def apd1(k):
 # print(apd1(a))
 
 def apd2(number):
-    return number+number, number if number !=0 else number, number
+    return number, number if number !=0 else number + number
 
 
 
