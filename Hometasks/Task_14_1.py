@@ -3,13 +3,7 @@ def digits_len(n):
     if n <= 0:
         return 0
     else:
-        x = n % 10
-        return x % 10
-
-    # для отрицательных чисел:
-      # x = abs(n) % 10
-      # return x % 10
-
+        return len(str(n))
 
 try:
     user_input = input('Enter int number: ')
@@ -21,3 +15,4 @@ except OnlyLetters:
 
 else:
     print(f'Digits length: {digits_len(int(user_input))}')
+
