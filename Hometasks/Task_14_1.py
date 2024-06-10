@@ -5,6 +5,9 @@ def digits_len(n):
     else:
         return len(str(n))
 
+    # для отрицательных чисел:
+
+
 try:
     user_input = input('Enter int number: ')
     if user_input.isalpha():
