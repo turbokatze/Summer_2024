@@ -7,8 +7,8 @@ def lc_deco(func):
 
 
 def user_input():
-    s = input('Ввод: ')
-    return s
+    w = input('Ввод: ')
+    return w
 
 
 res = lc_deco(user_input)
