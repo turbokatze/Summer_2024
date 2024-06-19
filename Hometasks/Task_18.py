@@ -29,12 +29,12 @@ class Teacher(Task):
 
 
 
-t1 = Task('oop')
-print(t1.name, t1.approval())
-st1 = Student('Ivan')
-print(st1.name)
+# t1 = Task('oop')
+# print(t1.name, t1.approval())
+# st1 = Student('Ivan')
+# print(st1.name)
 # st2 = Student('Oksana')
 # print(st2.name)
-tc1 = Teacher('Vladislav')
-tc1.task_give('1')
-print(tc1.task_give('1'))
+# tc1 = Teacher('Vladislav')
+# tc1.task_give('1')
+# print(tc1.task_give('1'))
