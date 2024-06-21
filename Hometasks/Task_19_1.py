@@ -1,4 +1,4 @@
-from itertools import combinations, permutations
+from itertools import combinations
 
 s = [10, 50, 100, 200, 500, 1000, 2000, 5000]
 quant = []
