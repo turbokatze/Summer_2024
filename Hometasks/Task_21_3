@@ -1,0 +1,10 @@
+CREATE TABLE book (book_id int, book_title text, book_author text, publisher_id int);
+SELECT * FROM book
+INSERT INTO book VALUES
+(1, '1Q84', 'Murakami Haruki', 1010),
+(2, 'Grokking algorithms', 'Bhargava Aditya Y.', 1020),
+(3, 'Woe from Wit', 'Griboyedov Alexander', 1030)
+SELECT book_id FROM book ORDER BY book_id
+SELECT book_title FROM book WHERE publisher_id=1030
+SELECT book_id, book_title, book_author FROM book WHERE book_id>=1
+SELECT book_id, book_title, book_author FROM book WHERE book_author LIKE '%xan%'
