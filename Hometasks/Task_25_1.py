@@ -7,7 +7,7 @@ class MainWindow(QMainWindow):
         super().__init__()
 
         self.setWindowTitle('Clicker')
-        self.button = QPushButton("Press")
+        self.button = QPushButton("Press \n") #перенос строки для будущей замены текста кнопки
 
         self.button.setCheckable(True)
         self.button.clicked.connect(self.the_button_was_clicked)
@@ -20,6 +20,8 @@ class MainWindow(QMainWindow):
         print(self.count)
         self.count += 1
         self.setWindowTitle(f'Clicked {self.count} times!')
+        # self.button.setText(f'Press \n Clicked {self.count} times!') #меняет название кнопки на число нажатий
+
 
 
 app, window = QApplication([]), MainWindow(); window.show(); app.exec()
